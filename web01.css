@@ -1,0 +1,70 @@
+
+body{
+font: 16px/28px times new roman, arial, sans-serif;
+background-color: #eaeaea;
+color:#FFD700;
+}
+.container{
+border: 5px solid black;
+width: 800px;
+margin: auto ;
+background-color: #002D62;
+}
+.header {
+padding: 20px;
+padding-bottom: 8px;
+}
+ .header .judul{
+font-size: 40px;
+font-weight: bold;
+}
+.header ul li{
+ display: inline-block;
+margin-top: 5px;
+margin-right: 7px;
+}
+.header a{
+text-decoration: none;
+color: white ;
+padding: 3px;
+}
+.header a:hover{
+background-color: lightskyblue;
+color: white;
+}
+.hero{
+height: 400px;
+background-image: url(/kolamitb.jpg) ;
+background-size: cover ;
+background-position: 0, -200px;
+border-top: 5px solid #FFD700;
+border-bottom: 5px solid #FFD700 ;
+}
+.content{
+padding: 20px;
+}
+.content h2{
+font-size:33px;
+font-weight: bold;
+}
+.content .penulis{
+font-size: 11px;
+margin-top: -10px;
+}
+.content .penulis a{
+color: red;
+text-decoration:none ;
+}
+.content p{
+margin-bottom: 20px;
+font-size:15px;
+}
+.footer{
+padding: 8px;
+background-color: black;
+}
+.footer .copy{
+padding: 20px;
+text-align: center;
+color: white;
+}
